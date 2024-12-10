@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #000;
+    color: #701717;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.timer {
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+#time-input {
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    width: 80%;
+}
+
+#time-display {
+    display: block;
+    margin-top: 10px;
+}
+
+.controls button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #555;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.controls button:hover {
+    background-color: #666;
+}
+
+.settings {
+    margin-top: 20px;
+}
+
+button#dark-mode-toggle {
+    padding: 5px 15px;
+    background-color: #555;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button#dark-mode-toggle:hover {
+    background-color: #666;
+}
